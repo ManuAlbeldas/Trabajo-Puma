@@ -132,7 +132,27 @@ img{
 }
 footer{
     margin-top: 10px;
+    background-color: black;
 }
 #img{
     height: 225px;
+}
+#redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+#red{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    transition: transform 1s ease;
+}
+#red:hover{
+    transform: scale(1.1);
 }
